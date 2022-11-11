@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- https://matthew.wagerfield.com/parallax/ -->
+    <div class="container">
+        <div id="scene">
+            <div data-depth="-0.3" class="b1"><img src="images/9.png" alt="배경">
+            </div>
+            
+            <div data-depth="-0.1"><img src="images/12.png" alt="12">
+            </div>
+            <div data-depth="0.2"><img src="images/11.png" alt="11">
+            </div>
+            <div data-depth="-0.2"><img src="images/10.png" alt="10">
+            </div>
+            <div data-depth="0"><img src="images/8.png" alt="8">
+            </div>
+            <div data-depth="0"><img src="images/15.png" alt="15">
+            </div>
+            <div data-depth="0.2"><img src="images/7.png" alt="7">
+            </div>
+            <div data-depth="0.2"><img src="images/6.png" alt="6">
+            </div>
+            <div data-depth="0.2"><img src="images/3.png" alt="left bottom">
+            </div>
+            <div data-depth="-0.1"><img src="images/2.png" alt="2">
+            </div>
+            <div data-depth="0.1"><img src="images/1.png" alt="1">
+            </div>
+            <div data-depth="0.3"><img src="images/14.png" alt="테두리원">
+            </div>
+            <div data-depth="0.5"><img src="images/13.png" alt="랜디스도넛">
+            </div>
+            <div data-depth="1.6"><img src="images/5.png" alt="right astronaut">
+            </div>
+            <div data-depth="-1.1"><img src="images/4.png" alt="left astronaut">
+            </div>
+        </div>
+    </div>
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script>
+        var scene = document.getElementById('scene');
+        var parallaxInstance = new Parallax(scene);
+    </script>   
+</body>
+</html>
